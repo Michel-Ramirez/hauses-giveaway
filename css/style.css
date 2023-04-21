@@ -1,0 +1,143 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERIC */
+
+img{
+    width: 600px;
+}
+
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+section{
+    justify-content: center;
+}
+
+/* LOGO */
+
+header{
+    height: 100px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+#logo{
+    width: 200px;
+    
+}
+
+/* UTILITY */
+
+
+.d-flex{
+    display: flex;
+}
+
+/* TITLE */
+
+.container-title{
+    justify-content: space-between;
+}
+
+h1 {
+    width: 500px;
+    font-size: 70px;
+    padding: 50px;
+    padding-top: 120px;
+    padding-bottom: 0;
+}
+
+#info{
+    padding: 50px;
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+/* GIVEAWAY SECTION */
+
+.giveaway{
+    flex-direction: column;
+}
+
+.giveaway h2, .giveaway p{
+    align-self: center;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.giveaway p{
+    font-size: 25px;
+}
+
+/* CARDS */
+
+.card-villa{
+    padding: 30px;
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    background-color: #1C97D9;
+    color: white;
+}
+
+h4{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.card-villa p{
+ font-size: 20px;
+}
+
+.cards{
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+/* GUIDELINES & OL*/
+
+h3 {
+    font-size: 40px;
+}
+
+h5{
+    font-size: 25px ;
+    padding-bottom: 20px;
+}
+
+.guide{
+    padding-top: 100px;
+    flex-direction: column;
+}
+
+.guide div{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.guide-list{
+    font-size: 20px;
+    flex-direction: row;
+}
+
+.guide-list li{
+    width: calc(100% / 4);
+    margin: 20px;
+}
+
+/* FOOTER */
+
