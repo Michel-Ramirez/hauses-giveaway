@@ -146,11 +146,17 @@ h5{
 /* BACKGOUND SECTION FORM */
 
 
-section.form{
-
+/* section.form{
     background-image: url(../img/GettyImages-1151040853.webp);    background-size: cover;
-    /* opacity: 0.7; */
-    padding-bottom: 300px;
+    opacity: 0.7;
+    padding-bottom: 200px;
+} */
+
+
+
+section.form::after{
+    content: '';
+    background-color: rgba(0,0,0,1);
 }
 
 /* .footer-title h1{
@@ -158,20 +164,23 @@ section.form{
     color: black;
 } */
 
+.form img{
+    width: 100%;
+    opacity: 0.7;
+
+    /* !TEST POSITION RELATIVE */
+
+    /* position: relative; */
+}
 
 
 /* FORM */
 
 
-.footer-title p{
+.form-title p{
     font-size: 30px;
     font-weight: 400;
-}
-
-form{
-    flex-direction: column;
-    width: 100px;
-    margin-top: 100px;
+    padding: 20px 50px;
 
 }
 
@@ -179,9 +188,21 @@ form{
     width: calc(100% / 2);
 }
 
+.container-form-item{
+    justify-content: space-around;
+
+    /* !TEST POSITION ABSOLUTE */
+
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+
 .card-form{
     width: 400px;
+    height: 500px;
     margin-top: 100px;
+    flex-direction: column;
     background-color: white;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -192,12 +213,34 @@ form{
     0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
+.form-data{
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px
+}
 
+.form-data label{
+    font-size: 20px;
+    margin: 10px 0;
+}
 
+#fname, #lname, #email{
+    font-size: 16px;
+    padding: 10px;
+}
 
+.privacy-check {
+    margin: 10px 0;
+}
 
+.btn-submit{
+    width: 70px ;
+    height: 40px;
+    border: 0;
+    background-color: #1C97D9;
+    color: white;
 
-
+}
 
 
 /* FOOTER */
