@@ -20,10 +20,12 @@
     <!-- CONTAINER MAIN -->
     <div class="container">
         <main>
+            
             <!-- TITLE ARTICLE "WIN A VILLA" -->
+
             <div class="container-title d-flex">
                 <div class="title">
-                    <h1>VINCI UNA VILLA A ZIGO, SVIZZERA</h1>
+                    <h1>VINCI UNA VILLA A ZUGO, SVIZZERA</h1>
                     <p id="info">Seguici nel progetto, ottenendo la whitelist per avere accesso al giveaway e ad altri premi.</p>
                 </div>
                 <img src="img/villa.webp" alt="foto villa">
@@ -37,6 +39,7 @@
             </section>
 
             <!-- CARDS -->
+
             <section class="d-flex cards">
                 <div class="card-villa">
                     <h4>Villa a Zugo</h4>
@@ -80,29 +83,35 @@
         </main>
     </div>
 
-    <!-- FOOTER WITH BACKGROUND AND FORM -->
-    <footer>
+    <!-- SECTION WITH BACKGROUND AND FORM -->
 
-        <!-- INSERT BACKGROUND IMG IN FOOTER -->
+    <!-- INSERT BACKGOUND OPACITY -->
 
-        <div>
-            <h1 class="footer-title">ENTRA A FAR PARTE ANCHE TU DELLA COMMUNITY DI HAUSES</h1>
-            <p>Compila il form per registrarti gratuitamente al giveaway, segui i vari step, e attendi il risultato!</p>
+    <section class="form">
+        <div class="container-footer-item d-flex">
+            <div class="footer-title op-0">
+                <h1>ENTRA A FAR PARTE ANCHE TU DELLA COMMUNITY DI HAUSES</h1>
+                <p>Compila il form per registrarti gratuitamente al giveaway, segui i vari step, e attendi il risultato!</p>
+            </div>
+            <div class="card-form">
+                <form action="/action_page.php" class="form-data d-flex">
+                    <label for="fname">Nome</label>
+                    <input type="text" name="fname" id="fname">
+                    <label for="lname">Cognome</label>
+                    <input type="text" name="lname" id="lname">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                    <input type="checkbox"><span>Accetto i <a href="#">Termini e le condizioni</a> e la <a href="#">Normativa sulla privacy</a></span>
+                    <input type="submit" value="Invia">
+                </form>
+            </div>
         </div>
-
-        <!-- INSERT CARD FOR REGISTRATION -->
-        <!-- 
-            NAME 
-            EMAIL
-
-            PRIVACY
-
-            CAPTCHA
-            BOTTON-SEND- 
-        -->
-
-    </footer>
-
-    
+    </section>
+    <!-- FOOTER LOGO E COPY -->
+    <footer class="footer-logo d-flex">
+        <img src="img/hauses-logo-blue.png" alt="Logo hauses d-flex">
+        <p class="d-flex">2023 Giveaway</p>
+        <span class=d-flex><em>Devoluped by Michel</em></span>
+    </footer>    
 </body>
 </html>

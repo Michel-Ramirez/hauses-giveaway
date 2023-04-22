@@ -43,6 +43,10 @@ header{
     display: flex;
 }
 
+.op-0{
+    opacity: 100%;
+}
+
 /* TITLE */
 
 .container-title{
@@ -139,5 +143,83 @@ h5{
     margin: 20px;
 }
 
+/* BACKGOUND SECTION FORM */
+
+
+section.form{
+
+    background-image: url(../img/GettyImages-1151040853.webp);    background-size: cover;
+    /* opacity: 0.7; */
+    padding-bottom: 300px;
+}
+
+/* .footer-title h1{
+    opacity: 1;
+    color: black;
+} */
+
+
+
+/* FORM */
+
+
+.footer-title p{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.card-form{
+    width: 400px;
+    background-color: aqua;
+}
+
+form{
+    flex-direction: column;
+    width: 100px;
+
+}
+
+.footer-title, .card-form{
+    width: calc(100% / 2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* FOOTER */
 
+.footer-logo img{
+    margin: 20px;
+    width: 200px;
+    align-self: center;
+}
+
+.footer-logo{
+    background-color: #0F171F;
+    flex-direction: column;
+    ;
+}
+
+.footer-logo p:before{
+    content: "\00A9";
+}
+
+.footer-logo p{
+    color: lightgrey;
+    font-size: 20px;
+    align-self: center;
+}
+
+.footer-logo span{
+    color: lightgrey;
+    font-size: 15px;
+    align-self: center;
+}
